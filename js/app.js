@@ -42,14 +42,8 @@ function roueTourne() {
   argentAleatoire(deg);
   roue.style.transition = "all 5s ease-out"; // sans sa je ne tourne pas
   roue.style.transform = "rotate(" + deg + "deg)";
+  // console.log(deg)
 }
-  // roue.addEventListener('transitionend', () => {
-  //   roue.style.transition = 'none';
-  //   let newdeg = Math.floor(deg % 360);
-  //   roue.style.transform = "rotate(" + newdeg + "deg)";
-  //   // console.log(newdeg)
-  // });
-
 
 // Fonction qui choisi une somme aléatoire lorsque l'on mise
 function argentAleatoire(deg) {
